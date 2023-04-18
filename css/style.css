@@ -116,11 +116,43 @@ body {
     margin-bottom: 5px;
 }
 
-.logobooki {
-    margin-top: 30px;
+.menu-container {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 16px;
+    margin-right: 46.61px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+  }
+  .element1 {   
+  }
+  .element2 {
+    margin-left: 69px;
+    }
+
+nav a { 
+    text-decoration: none;
 }
 
+nav a:hover {
+    border-top: 2px solid blue;
+    padding-top: 20px;
+}
 
+.activités {
+    color:black
+}
+
+.hébergement {
+    color: #0065fc
+}
+
+.logobooki {
+    margin-top: 4.53px;
+}
+    
 
 /* Le code ci-dessous correspond à la version responsive uniquement */
 

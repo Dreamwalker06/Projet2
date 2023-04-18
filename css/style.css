@@ -234,7 +234,12 @@ p {
         background-color: #DEEBFF;
     }
 
-
+.infobar {
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
+    margin-top: 45px;
+}
   
 
 /* Le code ci-dessous correspond à la version responsive uniquement */

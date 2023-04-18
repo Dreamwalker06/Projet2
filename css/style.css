@@ -151,8 +151,16 @@ nav a:hover {
 
 .logobooki {
     margin-top: 4.53px;
+    margin-left: 30px;
 }
-    
+
+h1 {
+    margin-left: 50px
+}
+
+p {
+    margin-left: 50px
+}
 
 /* Le code ci-dessous correspond à la version responsive uniquement */
 

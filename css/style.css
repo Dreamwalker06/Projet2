@@ -69,7 +69,27 @@ body {
 /****** Hebergements ***********/
 .hebergements {
     width: 65%;
+    margin-top: 35px;
 }
+
+.hebergements img {
+    width: 250.33px;
+    height: 124px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.card-hebergements {
+    background-color: white;
+    border-radius: 20px;
+    padding: 5px;
+    margin-top: 30px;
+    width: 250.33px;
+    height: 207.25px;
+}
+
+
+
 
 /****** Populaires ***********/
 .populaires {
@@ -163,8 +183,8 @@ h1 {
     padding-top: 60px;
 }
 
-p {
-    font-size: 16px;
+.hebergement-prix {
+    font-size: 14px;
 }
 .search-form {
     display: flex;

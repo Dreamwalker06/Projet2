@@ -70,6 +70,7 @@ body {
 .hebergements-and-populaires {
     display: flex;
     justify-content: space-between;
+    gap:39px;
 }
 
 .hebergements-and-populaires section {
@@ -84,13 +85,14 @@ body {
     width: 871px;
     margin-top: 35px;
     height: 680.5px;
+    margin-left: 50px;
 }
 
 .hebergements-cards .card {
     display: inline-block;
     margin: 3px;
     margin-top: 33px;
-    width: 250.33px;
+    width: 240.33px;
     height: 237.25px;
     flex-direction: column;
     
@@ -98,7 +100,7 @@ body {
 
 .hebergements img {
     box-sizing: border-box;
-    width: 250.33px;
+    width: 240.33px;
     height: 124px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
@@ -111,7 +113,7 @@ body {
 
 /****** Populaires ***********/
 .populaires {
-    width: 32%;
+    width: 429px;
     margin-top: 35px;
 }
 
@@ -284,7 +286,7 @@ h1 {
 
 /****** Activités ***********/
 .activités-txt {
-    padding-left: 30px;
+    padding-left: 80px;
     padding-top: 65px;
     padding-bottom: 30px;
 }
@@ -315,6 +317,7 @@ h1 {
     flex-direction: row;
     gap: 30px;
     justify-content: center;
+    padding-left: 80px;
 }
 
 /****** Footer ***********/
@@ -324,6 +327,8 @@ footer {
     background-color: #F2F2F2;
     margin-top: 50px;
     padding-left: 20px;
+    margin-left: 50px;
+    width: 1300px;
 }
 
 .column {

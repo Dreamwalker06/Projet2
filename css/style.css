@@ -187,6 +187,9 @@ body {
     margin-left: 69px;
     }
 
+.menu-mobile {
+    display: none;
+}
 nav a:hover {
     border-top: 2px solid blue;
     padding-top: 13px;
@@ -466,8 +469,107 @@ li {
 /* Small devices (phones, less than 768px) */
 @media (max-width: 767.98px) {
     /* ... */
+    /* menu */
+
+    h1 {
+        font-size: 45px;
+    }
+    .txtt {
+        font-size: 32px;
+    }
+    .infobar-txt {
+        font-size: 32px;
+    }
+    .menu-container {
+        visibility: hidden
+    }
+    .menu-mobile {
+        margin-top: 50px;
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+        justify-content: space-around;
+          }
+        .hebergement-txt {
+        color:#0065FC;
+        font-size: 24px;
+             }
+        .activites-txt {
+        font-size: 24px;        
+        }
+    .hebergement-txt:hover, .activites-txt:hover {
+        border-bottom: 2px solid blue;
+        padding-bottom: 5px;
+    }
+    .logobooki {
+        margin-left: 45%;
+        transform: scale(1.6);
+    }
     nav a:hover {
         border-bottom: 2px solid blue;
         padding-bottom: 13px;
     }
+
+    /* Activites */
+    /****** Formulaire ***********/
+.search-form {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /****** Hebergement ***********/
+  }
+  .hebergements-and-populaires {
+    flex-direction: column;
+    margin-left: -50px;
+}
+
+.hebergements {
+    width: 95%;
+    
+}
+.hebergements-cards .card {
+    display: flex;
+    
+    
+}
+.hebergements img {
+box-sizing: border-box;
+width: 268px;
+height: 124px;
+border-top-left-radius: 20px;
+border-top-right-radius: 20px;
+object-fit: cover;
+}
+/****** Populaire ***********/
+.populaires {
+    width: 95%;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.populaires-cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+
+.populaires-cards .card {
+    width: 268px;
+    height: 146px;
+}
+
+.populaires-cards .card-title {
+    font-size: 14px;
+}
+
+.populaires-cards .card-subtitle {
+    font-size: 13px;
+}
+
+.populaires-cards img {
+    width: 91px;
+    height: 146px;
+}
 }

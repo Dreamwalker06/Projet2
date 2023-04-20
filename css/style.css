@@ -87,9 +87,9 @@ body {
 
 /****** Hebergements ***********/
 .hebergements {
-    max-width: 871px;
+    width: 871px;
     margin-top: 35px;
-    max-height: 680.5px;
+    height: 680.5px;
     margin-left: 50px;
 }
 
@@ -97,8 +97,8 @@ body {
     display: inline-block;
     margin: 3px;
     margin-top: 33px;
-    max-width: 240.33px;
-    max-height: 237.25px;
+    width: 240.33px;
+    height: 237.25px;
     flex-direction: column;
     
 }
@@ -118,7 +118,7 @@ body {
 
 /****** Populaires ***********/
 .populaires {
-    max-width: 429px;
+    width: 429px;
     margin-top: 35px;
 }
 
@@ -372,12 +372,23 @@ li {
     }
 
     .hebergements {
-        width: 100%;
+        width: 95%;
         
     }
-
+    .hebergements-cards .card {
+        width: 268px;
+        height: 237.25px;
+}
+    .hebergements img {
+    box-sizing: border-box;
+    width: 268px;
+    height: 124px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    object-fit: cover;
+}
     .populaires {
-        width: 100%;
+        width: 95%;
         margin-top: 50px;
         margin-left: 50px;
     }
@@ -387,10 +398,12 @@ li {
         flex-direction: row;
         justify-content: space-between;
         align-items: center;
+       
     }
 
     .populaires-cards .card {
-        width: 80%;
+        width: 268px;
+        height: 146px;
     }
 
     .populaires-cards .card-title {
@@ -403,11 +416,51 @@ li {
 
     .populaires-cards img {
         width: 91px;
-        height: 146;
+        height: 146px;
     }
     .tablette-topmain {
         margin-left: -50px;
     }
+
+/* Activites */
+    .activités {
+        display: flex;
+        flex-direction: row;
+        gap: 30px;
+        justify-content: center;
+        margin-left: -10%;
+        width: 924px;
+        height: 390.02px;
+        
+    }
+
+    .activités-card {
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+        transition: 0.3s;
+        max-width: 297.5px;
+        max-height: 439px;
+        border-radius: 20px;
+        width: 193.5px;
+        height: 270px;
+    }
+
+    .activités-img {
+        width: 193.5px;
+        height: 200px;
+    }
+    .activités-txt {
+        padding-left:20px;
+    }
+    /* Filtres */
+    /* Footer */
+    footer {
+        margin-left: 0px;
+        margin-top: -65px;
+    }
+    /* Menu */
+    .menu-container {
+        margin-right:0px;
+}
 }
 
 /* Small devices (phones, less than 768px) */

@@ -299,6 +299,19 @@ h1 {
  
 }
 
+.info-logo {
+    border: 1px solid #D9D9D9;
+    border-radius: 50%;
+    box-sizing: border-box;
+    width: 30px; /* ajustez la taille en fonction de vos besoins */
+    height: 30px; /* ajustez la taille en fonction de vos besoins */
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    line-height: 27px;
+}
+
+
 /****** Activités ***********/
 .activités-txt {
     padding-left: 80px;
